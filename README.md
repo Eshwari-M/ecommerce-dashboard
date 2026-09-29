@@ -16,7 +16,7 @@ A responsive dessert e-commerce website built with React, featuring a modern int
 
 - React
 - JavaScript
-- HTML5
+- HTML5 
 - CSS3
 
 ## Project Structure
