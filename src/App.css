@@ -1,0 +1,60 @@
+body {
+    background-color: #fff8f2;
+}
+
+.App {
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4e342e !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #e8a87c !important;
+}
+
+/* Headings */
+h1,
+h2 {
+    color: #4e342e;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    color: #4e342e;
+}
+
+/* Product images */
+.card-img-top {
+    border-radius: 12px 12px 0 0;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* Product section */
+.container {
+    max-width: 1200px;
+}
