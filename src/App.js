@@ -87,12 +87,12 @@ function App() {
                 <h1>The Sweet Cravings Store</h1>
                 <nav className="navbar navbar-expand-lg bg-light">
                   <div className="container">
-                      <a className="navbar-brand" href="#">
+                      <a className="navbar-brand" href="/">
                           E-Commerce
                       </a>
 
                       <div className="navbar-nav ms-auto">
-                          <a className="nav-link" href="#">Home</a>
+                          <a className="nav-link" href="/">Home</a>
                           <a className="nav-link" href="#products">Products</a>
                           <a className="nav-link" href="#cart">Cart</a>
                           <a className="nav-link" href="#checkout">Checkout</a>
@@ -100,21 +100,25 @@ function App() {
                   </div>
               </nav>
 
+              <div id="products">
                 <ProductList
                     products={PRODUCTS}
                     onAddToCart={addToCart}
                 />
-
+            </div>
+            <div id="cart">
                 <Cart
                     cartItems={cartItems}
                     onRemove={removeFromCart}
                     onIncrease={increaseQuantity}
                     onDecrease={decreaseQuantity}
                 />
-
+            </div>
+            <div id="checkout">
                 <CheckoutForm
                     onSubmit={handleCheckout}
                 />
+            </div>
 
             </div>
         </ErrorBoundary>
